@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.my-menu{
+    box-shadow: 0px 5px 10px 0px grey;
+}
+#home{
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.heading-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.code-icon{
+    font-size: 45px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-top: 18px;
+    padding-left:13px !important;
+    box-shadow: 0px 0px 5px 0px #323232;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+#ser{
+    font-size: 25px !important;
+    margin: 15px 0px !important;
+}
+.pd{
+    padding: 25px;
+}
+#hd{
+    font-family: font-family: Arial, Helvetica, sans-serif;
+}
+#service{
+    margin-bottom: 0;
+}
+ 
+  #abc { border-radius: 50% !important;
+    border: 3px solid #fff !important;
+  }
+  #xyz{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+  }
+  a.nav-link.active{
+    background-color: black;
+    color: white !important; 
+  }
+  @keyframes appear {
+    from {
+     opacity: 0;
+    scale: 0.5;
+    }
+    to {
+    opacity: 1;
+    scale: 1;
+    }
+  }
+  
+ 
+  .xx{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0; 
+  }
+  .xxy{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%; 
+  }
+  
